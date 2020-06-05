@@ -7,10 +7,10 @@ Connect Arduino digital pins to LCD pins in the following configuration:
   
 D12 - LCD4  
 D11 - LCD6  
-D5 - LCD4  
-D4 - LCD5  
-D3 - LCD6  
-D2 - LCD7  
+D5 - LCD11  
+D4 - LCD12  
+D3 - LCD13  
+D2 - LCD14  
   
 Connect Arduino analog and 3.3v pins to the following Qwiic keypad pins:
   
