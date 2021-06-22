@@ -5,7 +5,7 @@ Depends on the [Wire](https://www.arduino.cc/en/reference/wire), [LiquidCrystal]
   
 Connect Arduino digital pins to LCD pins in the following configuration:
   
-D12 - LCD4  (reset pin) 
+D12 - LCD4  (reset pin)   
 D11 - LCD6  (interface enable pin)  
 D5 - LCD11  (data)  
 D4 - LCD12  (data)  
