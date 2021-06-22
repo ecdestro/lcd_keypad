@@ -5,19 +5,19 @@ Depends on the [Wire](https://www.arduino.cc/en/reference/wire), [LiquidCrystal]
   
 Connect Arduino digital pins to LCD pins in the following configuration:
   
-D12 - LCD4  
-D11 - LCD6  
-D5 - LCD11  
-D4 - LCD12  
-D3 - LCD13  
-D2 - LCD14  
+D12 - LCD4  (reset pin)
+D11 - LCD6  (interface enable pin)
+D5 - LCD11  (data)
+D4 - LCD12  (data)
+D3 - LCD13  (data)
+D2 - LCD14  (data)
   
 Connect Arduino analog and 3.3v pins to the following Qwiic keypad pins:
   
 3.3v - Power  
 GND - Ground  
-A4 - SDA  
-A5 - SCL  
+A4 - SDA  (data)
+A5 - SCL  (clock)
   
 Pound key advances cursor to the beginning of the second row.  
 Star key returns cursor to the beginning of the first row.
