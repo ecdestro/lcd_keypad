@@ -16,7 +16,7 @@ Connect Arduino analog and 3.3v pins to the following Qwiic keypad pins:
   
 3.3v - Power  
 GND - Ground  
-A4 - SDA  (data)
+A4 - SDA  (data)  
 A5 - SCL  (clock)
   
 Pound key advances cursor to the beginning of the second row.  
